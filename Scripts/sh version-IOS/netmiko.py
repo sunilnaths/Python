@@ -31,7 +31,7 @@ def connect():
             print ("Cisco Device IP...", IP )
             neighbor(net_connect)
             interface(net_connect)
-    #####SSH to device, if sys.argv[1] is host#####
+    #####SSH to device, if sys.argv[1] is host1#####
     elif re.match (sys.argv[1],"host1"):
         host = open ('host1')
         for IP in host:
